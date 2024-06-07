@@ -1,0 +1,90 @@
+body {
+  background-image: url("https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/294/2023/09/03/Ini-alasan-Aqua-terasa-dingin-meski-tanpa-didinginkan-1-533439266.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Container agak transparan */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.shift {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.total-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calculator-title {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-group label {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.form-group select {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.form-group select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#back-button {
+  display: none;
+  margin-top: 20px;
+}
+
+#date-time {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-group button {
+  margin: 0 10px;
+}
+
+#results-table thead th {
+  text-align: center !important; /* Tambahkan !important untuk menambahkan prioritas */
+}
+
+#results-table-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
